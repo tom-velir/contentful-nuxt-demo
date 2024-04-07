@@ -1,3 +1,9 @@
 :root {
-  --links: #309e70;
+  --color-primary: #00dc82;
+  --links: var(--color-primary);
+}
+
+:focus-visible {
+  outline: 2px dashed var(--color-primary);
+  outline-offset: 5px;
 }
