@@ -1,6 +1,10 @@
 {
   "plugins": ["stylelint-order"],
-  "extends": "stylelint-config-recommended-vue/scss",
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-recommended-vue/scss",
+    "stylelint-config-prettier-scss"
+  ],
   "rules": {
     "color-function-notation": "legacy",
     "length-zero-no-unit": null,

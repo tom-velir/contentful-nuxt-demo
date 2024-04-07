@@ -3,7 +3,7 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "never",
-    "source.fixAll.stylelint": "never"
+    "source.fixAll.stylelint": "explicit"
   },
   "stylelint.validate": ["css", "scss", "vue"],
   "css.validate": false,
