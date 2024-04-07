@@ -1,0 +1,21 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "never",
+    "source.fixAll.stylelint": "never"
+  },
+  "stylelint.validate": ["css", "scss", "vue"],
+  "css.validate": false,
+  "scss.validate": false,
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  // These are to override my global VSCode settings.
+  // They might not be needed for your setup.
+  "[javascript][typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[css, scss]": {
+    "editor.formatOnSave": true
+  }
+}
