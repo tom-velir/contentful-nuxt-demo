@@ -4,8 +4,6 @@ export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig(event);
   const query = getQuery(event);
 
-  console.log({ query });
-
   if (!query.contentType) {
     throw createError({
       statusCode: 400,
